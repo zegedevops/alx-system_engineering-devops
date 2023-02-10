@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1ad | grep -E '^\.[^.]' | sort -t. -k2 | tr '\n' ',' | sed 's/.$//'
+ls -amvp
