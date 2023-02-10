@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir /tmp/u for file in *[a-z]*; do mv "$file" /tmp/u/; done
+mkdir -p /tmp/u && find . -name '[A-Z]*' -exec mv {} /tmp/u \+
