@@ -1,2 +1,2 @@
 #!/bin/bash
-read words && echo $words | tr ' ' '\n' | sort | uniq -u | sort | awk '{print $0}'
+sort |uniq -u
